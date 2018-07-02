@@ -1,3 +1,11 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\ArticleController::homepage
+
+news:
+    path: /news/{id}
+    controller: App\Controller\ArticleController::news
+
+ajax_url:
+    path: /ajax_url
+    controller: App\Controller\ArticleController::ajaxUrl
