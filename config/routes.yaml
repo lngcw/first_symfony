@@ -9,3 +9,7 @@ news:
 ajax_url:
     path: /ajax_url
     controller: App\Controller\ArticleController::ajaxUrl
+
+markdown:
+    path: /markdown
+    controller: App\Controller\ArticleController::mark
