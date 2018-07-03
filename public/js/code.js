@@ -7,7 +7,7 @@ $(document).ready(function () {
         var link = $(this).attr('href');
 
         $.ajax({
-            method: POST,
+            method: "POST",
             url: link,
         }).done(function (data) {
             $('.num').html(data);
